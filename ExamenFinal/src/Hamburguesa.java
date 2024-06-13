@@ -34,7 +34,12 @@ public class Hamburguesa {
             }
         }
     }
-    public void presentacion(){
-
+    public void representar(){
+        tope.representar();
+        carne.representar();
+        for(int i = 0; i<numExtras; i++){
+            extras[i].representar();
+        }
+        fondo.representar();
     }
 }

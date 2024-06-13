@@ -1,5 +1,5 @@
 public class Ketchup extends Extra{
-    private String representacion = "ooOooOooOooO";
+    private String representacion = " ooOooOooOooO";
     private String cantidad;
     public Ketchup(String cantidad) {
         this.cantidad=cantidad;

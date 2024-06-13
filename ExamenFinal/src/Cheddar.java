@@ -1,5 +1,5 @@
 public class Cheddar extends Extra{
-    public String representacion = "============";
+    public String representacion = " ============";
 
     @Override
     void describir() {

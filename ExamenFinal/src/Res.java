@@ -1,4 +1,5 @@
 public class Res extends Carne{
+    String representacion=" ::::::::::::";
 
     private String coccion;
     public Res(String coccion) { this.coccion = coccion; }
@@ -7,5 +8,5 @@ public class Res extends Carne{
     void describir() { System.out.print("Res ("+coccion+"), "); }
 
     @Override
-    void representar() { System.out.println("::::::::::::");}
+    void representar() { System.out.println(representacion);}
 }

@@ -1,5 +1,5 @@
 public class Huevo extends Extra{
-    String representacion = "~-~-(  )~-~-";
+    String representacion = " ~-~-(  )~-~-";
     @Override
     void describir() {
         System.out.print("Huevo frito");

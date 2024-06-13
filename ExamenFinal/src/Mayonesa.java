@@ -1,5 +1,5 @@
 public class Mayonesa extends Extra{
-    private String representacion;
+    private String representacion = " ~=~~=~~=~~=~";
     private String cantidad;
 
     public Mayonesa(String cantidad) {

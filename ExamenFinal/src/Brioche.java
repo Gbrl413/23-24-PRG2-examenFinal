@@ -8,6 +8,6 @@ public class Brioche extends Pan{
 
     @Override
     void representar() {
-        String representacion = "##############";
+        System.out.println(representacion);;
     }
 }
