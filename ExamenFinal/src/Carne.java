@@ -1,4 +1,5 @@
 public class Carne {
-//aviso de antemano que si bien se puede pensar que coccion pertenece a carne en general, no lo permitire por temas sanitarios
+    String representacion;
+//lo apropiado por temas de salud es no jugar con la coccion del pollo, asi que paso de poner coccion aca
 
 }
