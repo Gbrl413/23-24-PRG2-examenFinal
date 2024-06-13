@@ -1,5 +1,3 @@
-public class Extra {
+public abstract class Extra extends Ingrediente{
 
-    public Extra() {
-    }
 }

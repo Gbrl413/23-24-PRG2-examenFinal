@@ -2,7 +2,8 @@ public class Camarero extends Empleado{
 
     public void recibir(Hamburguesa hamburguesa){
         this.tieneHamburguesa=true;
-        System.out.println("Sale una Hamburgesa");
+        System.out.print("Sale una");
+        hamburguesa.describir();
     }
 
     public void servir(){

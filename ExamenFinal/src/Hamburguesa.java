@@ -21,4 +21,20 @@ public class Hamburguesa {
             }
         }
     }
+
+    public void describir(){
+        tope.describir();
+        carne.describir();
+        for(int i = 0; i<numExtras; i++){
+            extras[i].describir();
+            if(i != numExtras-1){
+                System.out.print(", ");
+            } else {
+                System.out.println("!!!!!");
+            }
+        }
+    }
+    public void presentacion(){
+
+    }
 }

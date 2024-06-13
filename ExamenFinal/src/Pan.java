@@ -1,2 +1,4 @@
-public class Pan {
+abstract class Pan extends Ingrediente{
+
+
 }

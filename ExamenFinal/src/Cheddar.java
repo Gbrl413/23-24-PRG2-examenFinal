@@ -1,5 +1,13 @@
 public class Cheddar extends Extra{
+    public String representacion = "============";
 
-    public Cheddar() {
+    @Override
+    void describir() {
+        System.out.print("Cheddar");
+    }
+
+    @Override
+    void representar() {
+        System.out.println(representacion);
     }
 }
